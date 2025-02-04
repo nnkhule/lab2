@@ -42,18 +42,7 @@ class Stack {
         return (top == maxSize - 1);
     }
 
-    public void display() {
-        if (isEmpty()) {
-            System.out.println("Stack is empty.");
-            return;
-        }
-        System.out.print("Stack: ");
-        for (int i = 0; i <= top; i++) {
-            System.out.print(stackArray[i] + " ");
-        }
-        System.out.println();
-    }
-
+   
     public static void main(String[] args) {
         Stack stack = new Stack(5);
 
