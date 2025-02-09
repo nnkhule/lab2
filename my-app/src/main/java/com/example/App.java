@@ -3,7 +3,7 @@ package com.example;
 /**
  * Utility class with the main method.
  */
-public class App {
+public final class App { // Declare the class as final
 
     // Private constructor to prevent instantiation
     private App() {

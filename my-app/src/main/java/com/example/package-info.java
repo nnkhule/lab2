@@ -1,4 +1,4 @@
 /**
- * This package contains the main application classes.
+ * Package information for com.example.
  */
 package com.example;
